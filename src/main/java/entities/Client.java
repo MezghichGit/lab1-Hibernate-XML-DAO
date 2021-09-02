@@ -13,6 +13,11 @@ public class Client {
 		this.nom = nom;
 		this.prénom = prénom;
 	}
+	
+	public Client(String nom, String prénom) {
+		this.nom = nom;
+		this.prénom = prénom;
+	}
 
 	public int getClientId() {
 		return clientId;

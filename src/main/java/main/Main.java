@@ -15,8 +15,8 @@ public class Main {
 		Scanner lect = new Scanner(System.in);
 		
 		//Saisi de l'id du client
-		System.out.println("Donner un ID");
-		int idC = lect.nextInt();
+		//System.out.println("Donner un ID");
+		//int idC = lect.nextInt();
 		
 		//Saisi du nom du client
 		System.out.println("Donner le nom");
@@ -27,8 +27,8 @@ public class Main {
 		String prenom = lect.next();
 		
 		//STEP 2 : On va créer un Objet Client avec ces données saisi
-		Client c = new Client(idC,nom,prenom);
-		
+		//Client c = new Client(idC,nom,prenom);
+		Client c = new Client(nom,prenom);
 		//STEP 3 : Appeler l'objet DAO
 		
 		DaoClient daoclient = new DaoClient();
