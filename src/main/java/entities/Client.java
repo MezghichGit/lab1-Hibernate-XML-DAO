@@ -45,6 +45,6 @@ public class Client {
 
 	@Override
 	public String toString() {
-		return "Je suis le client : " + clientId + " nommé : " + nom + " " + prénom;
+		return "Client : " + clientId + " nommé : " + nom + " " + prénom;
 	}
 }
